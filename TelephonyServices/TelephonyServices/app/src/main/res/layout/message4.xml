@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:padding="10dp">
+
+	<EditText
+		android:layout_width="fill_parent"
+		android:layout_marginTop="120dp"
+		android:padding="4dp"
+		android:hint="Enter Phone Number"
+		android:layout_height="40dp"
+		android:id="@+id/sent4"
+		android:textColorHint="#050A26">
+
+	</EditText>
+
+	<EditText
+		android:id="@+id/editMessage"
+		android:layout_marginTop="5dp"
+		android:layout_width="fill_parent"
+		android:padding="4dp"
+		android:hint="Message"
+		android:layout_height="wrap_content"
+		android:lines="5"
+		android:gravity="top"
+		android:textColorHint="#050A26"
+		android:background="@drawable/design"/>
+
+	<Button
+		android:layout_width="200dp"
+		android:layout_marginTop="10dp"
+		android:layout_height="35dp"
+		android:textSize="20sp"
+		android:textStyle="italic"
+		android:text="Send"
+		android:onClick="btnSend"
+		android:layout_marginLeft="70dp"
+		android:background="@drawable/design"/>
+
+</LinearLayout>
+
