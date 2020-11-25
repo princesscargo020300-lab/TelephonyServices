@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:text="Faculty Record App"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="20dp"
+		android:textColor="#4A4E62"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/idnum"
+		android:hint="Id Number"
+		android:inputType="number"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/empname"
+		android:hint="Employee Name"
+		android:inputType="text"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/address"
+		android:hint="Address"
+		android:inputType="text"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/highdegree"
+		android:hint="Highest Degree"
+		android:inputType="text"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:background="#4A4E62"
+		android:text="Insert"
+		android:textSize="15dp"
+		android:id="@+id/btnadd"
+		android:textColor="#FFF2F2"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:layout_marginTop="10dp"
+		android:background="#4A4E62"
+		android:text="Delete"
+		android:textSize="15dp"
+		android:id="@+id/btndel"
+		android:textColor="#FFF2F2"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:layout_marginTop="10dp"
+		android:background="#4A4E62"
+		android:textSize="15dp"
+		android:text="Update"
+		android:id="@+id/btnupdate"
+		android:textColor="#FFF2F2"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:layout_marginTop="10dp"
+		android:background="#4A4E62"
+		android:textSize="15dp"
+		android:text="View All"
+		android:id="@+id/btnviewall"
+		android:textColor="#FFF2F2"/>
+
+</LinearLayout>
+
